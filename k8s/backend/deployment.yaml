@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: analistadecodigo/infocep-backend:v0.1.0
+          image: valdir713/infocep-backend:v0.1.0
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
